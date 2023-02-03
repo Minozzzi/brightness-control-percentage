@@ -1,0 +1,10 @@
+{
+  "name": "Brightness Control Percentage",
+  "description": "Very useful to show your screen brightness value without having to open the menu",
+  "uuid": "brightnesscontrolpercentage@minozzi60.gmail.com",
+  "shell-version": [
+    "42"
+  ],
+  "version": 0.1,
+  "url": ""
+}
