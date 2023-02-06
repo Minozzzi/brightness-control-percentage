@@ -1,10 +1,10 @@
 {
   "name": "Brightness Control Percentage",
   "description": "Very useful to show your screen brightness value without having to open the menu",
-  "uuid": "gnome-shell-brightness-control-percentage@minozzi60.gmail.com",
+  "uuid": "brightness-control-percentage@minozzi60.gmail.com",
   "shell-version": [
     "42"
   ],
   "version": 0.1,
-  "url": "https://github.com/Minozzzi/gnome-shell-brightness-control-percentage"
+  "url": "https://github.com/Minozzzi/brightness-control-percentage"
 }
