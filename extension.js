@@ -72,8 +72,6 @@ class Extension {
   }
 
   enable() {
-    log(`enabling ${Me.metadata.name}`)
-
     this._brightnessIndicator = new BrightnessIndicator()
 
     Main.panel.statusArea.aggregateMenu._indicators.insert_child_at_index(
@@ -83,15 +81,11 @@ class Extension {
   }
 
   disable() {
-    log(`disabling ${Me.metadata.name}`)
-
     this._brightnessIndicator.destroy()
     this._brightnessIndicator = null
   }
 }
 
 function init() {
-  log(`initializing ${Me.metadata.name}`)
-
   return new Extension(Me.metadata.uuid)
 }
