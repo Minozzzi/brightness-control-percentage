@@ -3,7 +3,8 @@
   "description": "Very useful to show your screen brightness value without having to open the menu",
   "uuid": "brightness-control-percentage@minozzi60.gmail.com",
   "shell-version": [
-    "42"
+    "42",
+    "43"
   ],
   "version": 0.1,
   "url": "https://github.com/Minozzzi/brightness-control-percentage"

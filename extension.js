@@ -74,7 +74,7 @@ class Extension {
   enable() {
     this._brightnessIndicator = new BrightnessIndicator()
 
-    Main.panel.statusArea.aggregateMenu._indicators.insert_child_at_index(
+    Main.panel.statusArea.quickSettings._indicators.insert_child_at_index(
       this._brightnessIndicator,
       7
     )
